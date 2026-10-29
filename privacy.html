@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Template House · Privacy Policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+  <a class="brand" href="index.html">❄️ Template House</a>
+  <div>
+    <nav><a href="terms.html"><span class="tr">Hizmet Koşulları</span><span class="en">Terms</span></a><a href="privacy.html" aria-current="page"><span class="tr">Gizlilik</span><span class="en">Privacy</span></a></nav>
+  </div>
+  <div class="lang"><button data-l="tr">TR</button><button data-l="en">EN</button></div>
+</header>
+
+<article class="tr">
+  <h1>Gizlilik Politikası</h1>
+  <p class="date">Son güncelleme: 29 Ekim 2026</p>
+  <p>Bu politika, Discord botu <strong>Template House</strong>'un ("bot", "biz") hangi verileri topladığını, neden kullandığını ve haklarını açıklar. Botu kullanarak bu politikayı kabul etmiş olursun.</p>
+
+  <h2>1. Topladığımız veriler</h2>
+  <ul>
+    <li><strong>Discord kimliği:</strong> kullanıcı ID'n ve kullanıcı adın.</li>
+    <li><strong>Discord ile doğrulama (OAuth2) bilgileri:</strong> <code>/sablon-kur</code> komutunda "Discord ile sunucularımı doğrula" adımını tamamlarsan Discord bize <code>identify</code> ve <code>guilds</code> izinleriyle erişim verir. Bu sayede şunları saklarız:
+      <ul>
+        <li>Discord'un verdiği erişim ve yenileme anahtarları (token) ile bunların geçerlilik süresi,</li>
+        <li>yalnızca <strong>Yönetici</strong> yetkin olan sunucuların ID'si, adı, simgesi ve sahibi olup olmadığın bilgisi.</li>
+      </ul>
+      Yönetici olmadığın sunucular kaydedilmez. E-posta adresini istemeyiz ve görmeyiz.</li>
+    <li><strong>Kurulum kayıtları:</strong> şablon kurduğun tarih, seçtiğin şablon ve hedef sunucunun ID'si. Bu kayıt günlük kurulum sınırını uygulamak için tutulur.</li>
+    <li><strong>Kurulum log kayıtları:</strong> her kurulumdan sonra Template House sunucusundaki yetkililere açık bir log kanalına kullanıcı adın ve ID'n, şablon adı, hedef sunucunun adı ve ID'si, sonuç, oluşturulan kanal ve rol sayısı, hata varsa hata mesajı gönderilir.</li>
+    <li><strong>Şablon verileri:</strong> bir şablon kataloğa eklenirken kaynak sunucunun adı, simgesi ve ID'si, rollerin adları, renkleri ve izinleri, kanalların adları, türleri, konuları, ayarları ve izinleri kaydedilir. Kanal izinlerinde tek tek üyelere tanınmış özel izinler varsa, bu üyelerin kullanıcı ID'leri de kayıtta yer alabilir; bu izinler hedef sunucuya <strong>kopyalanmaz</strong>. Şablonu ekleyen yetkilinin kullanıcı ID'si de saklanır.</li>
+    <li><strong>Teknik kayıtlar:</strong> botun çalıştığı sunucudaki konsol kayıtlarında kurulum sırasında oluşturulan rol ve kanal adları ile hata mesajları yer alabilir.</li>
+  </ul>
+  <p><strong>Toplamadıklarımız:</strong> Botun mesajları okuma izni (Message Content) yoktur; mesajlarını okumaz ve kaydetmez. Hedef sunucunun mesaj geçmişini, üye listesini veya mevcut kanal ve rol yapısını kaydetmez. E-posta, telefon, IP adresi, konum veya ödeme bilgisi toplamayız.</p>
+
+  <h2>2. Verileri neden kullanıyoruz</h2>
+  <ul>
+    <li>Yalnızca yönetici olduğun sunuculara şablon kurabilmeni sağlamak ve bunu doğrulamak.</li>
+    <li>Seçtiğin şablonu hedef sunucuya kurmak ve sonuç raporunu sana göstermek.</li>
+    <li>Günlük kurulum sınırını uygulamak ve kötüye kullanımı (örneğin başkasının sunucusunu bozmaya çalışmak) önlemek.</li>
+    <li>Hataları bulup düzeltmek ve botu geliştirmek.</li>
+  </ul>
+  <p>Verilerin hizmetin sunulması ve meşru menfaatimiz (güvenli ve kötüye kullanılmayan bir hizmet) kapsamında işlenir. Verilerini <strong>satmayız</strong> ve reklam için kullanmayız. OAuth2 anahtarlarını yalnızca senin sunucu listeni okumak için kullanırız; senin adına mesaj göndermez, sunucuya katılmaz veya başka bir işlem yapmayız.</p>
+
+  <h2>3. Paylaşılan üçüncü taraflar</h2>
+  <ul>
+    <li><strong>Discord:</strong> bot Discord üzerinde çalışır ve tüm işlemler Discord'un API'si üzerinden yapılır; Discord'un kendi <a href="https://discord.com/privacy" rel="noopener">gizlilik politikası</a> geçerlidir.</li>
+    <li><strong>Sunucu sağlayıcısı:</strong> veriler, botun çalıştığı ve Türkiye dışında bulunabilen bir sunucuda saklanır.</li>
+  </ul>
+  <p>Bunların dışında hiçbir hizmete veri gönderilmez.</p>
+
+  <h2>4. Saklama süresi</h2>
+  <ul>
+    <li><strong>OAuth2 bilgileri:</strong> Discord'un verdiği erişim anahtarının süresi kendiliğinden dolar. Kayıt, sen silinmesini isteyene kadar saklanır. Discord'da <em>Kullanıcı Ayarları → Yetkili Uygulamalar</em> bölümünden Template House'un yetkisini istediğin an kaldırabilirsin; bu durumda kayıtlı anahtarlar işe yaramaz hâle gelir.</li>
+    <li><strong>Kurulum kayıtları:</strong> sen silinmesini isteyene kadar saklanır.</li>
+    <li><strong>Log kanalındaki kayıtlar:</strong> Template House sunucusundaki log kanalında, yetkililer silene kadar kalır.</li>
+    <li><strong>Şablonlar:</strong> katalogdan kaldırılana kadar saklanır. Kaynak sunucunun sahibiysen şablonun kaldırılmasını isteyebilirsin.</li>
+  </ul>
+
+  <h2>5. Güvenlik</h2>
+  <p>Veritabanına yalnızca botu yöneten kişiler erişebilir. Kurulum log kanalını yalnızca Template House yetkilileri görebilir. Bot, şablon kurmadan önce hem senin hem botun hedef sunucuda Yönetici olduğunu kontrol eder ve senden açık bir son onay ister.</p>
+
+  <h2>6. Hakların</h2>
+  <p>KVKK ve GDPR kapsamında hakkında hangi verileri tuttuğumuzu öğrenme, düzeltilmesini veya <strong>silinmesini</strong> isteme hakkın var. Talebin için aşağıdaki iletişim yolundan bize yaz; en geç 30 gün içinde yanıtlarız.</p>
+
+  <h2>7. Yaş sınırı</h2>
+  <p>Bot, Discord'u kullanmak için gereken yaş sınırının altındaki kişilere yönelik değildir.</p>
+
+  <h2>8. Değişiklikler</h2>
+  <p>Bu politikayı güncelleyebiliriz. Önemli değişiklikleri Template House sunucusunda duyururuz; sayfanın başındaki tarih son güncellemeyi gösterir.</p>
+
+  <h2>9. İletişim</h2>
+  <p>Discord: Template House sunucusundaki yetkililere yazabilirsin.</p>
+</article>
+
+<article class="en">
+  <h1>Privacy Policy</h1>
+  <p class="date">Last updated: October 29, 2026</p>
+  <p>This policy explains what data the Discord bot <strong>Template House</strong> ("the bot", "we") collects, why we use it, and your rights. By using the bot you agree to this policy.</p>
+
+  <h2>1. Data we collect</h2>
+  <ul>
+    <li><strong>Discord identity:</strong> your user ID and username.</li>
+    <li><strong>Discord sign-in (OAuth2) data:</strong> if you complete the "verify my servers with Discord" step of <code>/sablon-kur</code>, Discord gives us access with the <code>identify</code> and <code>guilds</code> scopes. We then store:
+      <ul>
+        <li>the access and refresh tokens Discord issues, and when they expire,</li>
+        <li>the ID, name and icon of <strong>only the servers where you have Administrator</strong>, and whether you own them.</li>
+      </ul>
+      Servers where you are not an administrator are not saved. We don't ask for or see your email address.</li>
+    <li><strong>Install records:</strong> the date you installed a template, which template, and the target server's ID. This is used to enforce the daily install limit.</li>
+    <li><strong>Install logs:</strong> after each install, a log message is posted to a channel in the Template House server that only staff can see. It contains your username and ID, the template name, the target server's name and ID, the result, how many channels and roles were created, and the error message if something failed.</li>
+    <li><strong>Template data:</strong> when a template is added to the catalog, we save the source server's name, icon and ID, its roles' names, colors and permissions, and its channels' names, types, topics, settings and permissions. If a channel has permissions set for individual members, those members' user IDs may be included in the saved data; such member permissions are <strong>never copied</strong> to a target server. The user ID of the staff member who added the template is also stored.</li>
+    <li><strong>Technical logs:</strong> the console logs of the machine running the bot may contain role and channel names created during an install, and error messages.</li>
+  </ul>
+  <p><strong>What we don't collect:</strong> The bot does not have the Message Content intent; it does not read or store your messages. It does not save a target server's message history, member list, or its existing channel and role structure. We don't collect email, phone numbers, IP addresses, location or payment information.</p>
+
+  <h2>2. Why we use it</h2>
+  <ul>
+    <li>To make sure you can only install templates on servers you administer.</li>
+    <li>To install the template you picked and show you the result.</li>
+    <li>To enforce the daily install limit and prevent abuse (for example, trying to wreck someone else's server).</li>
+    <li>To find and fix bugs and improve the bot.</li>
+  </ul>
+  <p>Your data is processed to provide the service and for our legitimate interest in a safe service that isn't abused. We <strong>never sell</strong> your data or use it for advertising. We use your OAuth2 tokens only to read your server list; we never send messages, join servers or do anything else on your behalf.</p>
+
+  <h2>3. Third parties</h2>
+  <ul>
+    <li><strong>Discord:</strong> the bot runs on Discord and everything it does goes through Discord's API; Discord's own <a href="https://discord.com/privacy" rel="noopener">privacy policy</a> applies.</li>
+    <li><strong>Hosting provider:</strong> data is stored on the server that runs the bot, which may be located outside your country.</li>
+  </ul>
+  <p>No data is sent to any other service.</p>
+
+  <h2>4. Retention</h2>
+  <ul>
+    <li><strong>OAuth2 data:</strong> the access token Discord issues expires on its own. The record is kept until you ask us to delete it. You can revoke Template House at any time in Discord under <em>User Settings → Authorized Apps</em>, which makes the stored tokens useless.</li>
+    <li><strong>Install records:</strong> kept until you ask us to delete them.</li>
+    <li><strong>Log channel messages:</strong> stay in the Template House log channel until staff delete them.</li>
+    <li><strong>Templates:</strong> kept until removed from the catalog. If you own a source server, you can ask for its template to be removed.</li>
+  </ul>
+
+  <h2>5. Security</h2>
+  <p>Only the people who run the bot can access its database. Only Template House staff can see the install log channel. Before installing a template, the bot checks that both you and the bot are administrators on the target server, and asks you for an explicit final confirmation.</p>
+
+  <h2>6. Your rights</h2>
+  <p>Under applicable law (including GDPR and Turkey's KVKK) you can ask what data we hold about you, and ask us to correct or <strong>delete</strong> it. Contact us using the details below and we'll respond within 30 days.</p>
+
+  <h2>7. Age</h2>
+  <p>The bot is not intended for anyone below the minimum age required to use Discord.</p>
+
+  <h2>8. Changes</h2>
+  <p>We may update this policy. We'll announce important changes in the Template House server; the date at the top shows the latest update.</p>
+
+  <h2>9. Contact</h2>
+  <p>Discord: contact the staff in the Template House server.</p>
+</article>
+
+<footer>© 2026 Template House</footer>
+</main>
+<script src="lang.js"></script>
+</body>
+</html>
